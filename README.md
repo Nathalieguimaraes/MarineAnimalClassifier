@@ -54,12 +54,9 @@ project/
 Dockerfile
 The Dockerfile in the app directory is used to build the Docker container for the application. Ensure that main.py, model.py, and all necessary dependencies in requirements.txt are set up correctly.
 
-To build the Docker image, use:
-docker build -t marine_animal_classifier .
-
 <h1>4. Running the Application Locally with Docker</h1>
 Build and Run Docker Container:
-docker build -t marine_animal_classifier .
+docker build -t marine_animal_classifier . <br>
 docker run -p 8000:8000 -v "C:/Users/nsguimaraes/Documents/project/app/Marine_animals_dataset:/data/Marine_animals_dataset" marine_animal_classifier
 
 Access the Application:
