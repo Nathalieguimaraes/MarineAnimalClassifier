@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: marine-animal-classifier
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: classifier
+  template:
+    metadata:
+      labels:
+        app: classifier
+    spec:
+      containers:
+      - name: classifier
+        image: marine_animal_classifier:latest
+        ports:
+        - containerPort: 8000

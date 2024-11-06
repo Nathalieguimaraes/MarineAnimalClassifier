@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+torch
+torchvision
+Pillow
+python-multipart
+scikit-learn
+matplotlib
+seaborn
+numpy
+pre-commit
+
