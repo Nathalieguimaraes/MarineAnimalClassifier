@@ -1,6 +1,3 @@
-# Marine_Animal_Classifier
-This project is a service for marine animals, classification, using a DL model fine-tuned.
-
 <h1>Marine Animal Classifier</h1>
 
 This project is a web-based classifier for marine animals, utilizing a deep learning model fine-tuned on a custom dataset sourced from Kaggle. It allows users to upload an image and receive predictions of the type of marine animal in the image. The application is packaged as a Docker container and deployed to a local Kubernetes cluster using Minikube.
